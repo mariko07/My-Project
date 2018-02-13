@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mariko.remidiandroid.PlayerPertama">
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/player1"
+            android:text="PLAYER PERTAMA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/player1"
+            android:id="@+id/edtPlayer1"
+            android:hint="EDT PLAYER 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/player2"
+            android:text="PLAYER KEDUA"
+            android:layout_below="@id/edtPlayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/player2"
+            android:id="@+id/edtPlayer2"
+            android:hint="EDT PLAYER 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/next"
+            android:text="next"
+            android:background="@drawable/custombgbutton"
+            android:layout_below="@id/edtPlayer2"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

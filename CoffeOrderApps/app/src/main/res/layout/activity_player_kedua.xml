@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="mariko.remidiandroid.PlayerKedua"
+    android:background="#9888"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:id="@+id/bag1"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tampung"
+            android:textSize="20dp"
+            android:text="INI ADALAH"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#930051"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/point1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="0"
+            android:textSize="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/increment1"
+            android:text="+"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/decrement1"
+            android:text="-"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/reset1"
+            android:text="c"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bg2"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tampung1"
+            android:textSize="20dp"
+            android:textColor="#930051"
+            android:text="INI ADALAH"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/point2"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textSize="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/increment2"
+            android:text="+"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/decrement2"
+            android:text="-"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/reset2"
+            android:text="c"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
